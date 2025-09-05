@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ycm3g&j@3$dmlu_)g6@=)&5@*7cng^mb#nghw_d5h(*4sx=xra
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["cloth-waste-management.onrender.com"]
 
 
 # Application definition
@@ -121,3 +121,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
